@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+.layer {  
+    width:400px;  
+    height:400px;  
+    /*background-color:#FF7373;*/
+}
+.A {  
+	background-image:url("../images/liu.png");
+    position: absolute;  
+    top: 3%;  
+    left: 12%;  
+    background-repeat: no-repeat;
+   	z-index: 12;
+   	display: none;
+}  
+/* .B {  
+	background-image:url("images/cai.png");
+    position: absolute;  
+    top: 420px;  
+    left: 0px;  
+    background-repeat: no-repeat;
+     z-index: 11;
+     display: none;
+}  */ 
+.D {  
+	background-image:url("../images/xue.png");
+    position: absolute;  
+    top: 320px;  
+    left: 600px;  
+    background-repeat: no-repeat;
+     z-index: 11;
+     display: none;
+}  
+.login { 
+	display: none;
+    right: 10%;
+    z-index: 13;
+} 
+body{
+/*	position: absolute;
+	background-color: #0a105c;
+	filter: alpha(opacity=30);
+    -moz-opacity:30;
+	opacity:30;
+	z-index: 1;*/
+}
+.loading{
+    margin-left: -170px;
+    margin-bottom: -80px;
+	position: fixed;
+    bottom: 0;
+	background: url("../images/logins6.png") no-repeat center center;
+	/*background-size:200% 200%;*/
+	height: 126%;
+	width: 120%;
+	display: none;
+	z-index: 2;
+	/*box-shadow:0 0 30px 10px #0a105c inset;*/
+}
+.scribbling{
+ 	position: absolute;  
+    top: 70%;  
+    left: 1%;  
+    background-repeat: no-repeat;
+    z-index: 14;
+}
+.scribbling div{
+background:url("../images/yi.png") no-repeat bottom;
+width: 170px;
+height: 256px;
+}
+#userL on{
+	display: none;
+}
